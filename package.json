@@ -1,0 +1,12 @@
+{
+  "name": "webpack-custom-chunk-id-plugin",
+  "version": "1.0.0",
+  "description": "Custom chunk id generator with appended and prepended strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["webpack", "plugin"],
+  "author": "Darshan Sagar",
+  "license": "MIT"
+}
