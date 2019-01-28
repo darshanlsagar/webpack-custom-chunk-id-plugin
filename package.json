@@ -1,6 +1,6 @@
 {
   "name": "webpack-custom-chunk-id-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Custom chunk id generator with appended and prepended strings",
   "main": "index.js",
   "scripts": {
