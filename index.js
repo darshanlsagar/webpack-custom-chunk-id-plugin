@@ -29,7 +29,7 @@ customChunkIds.prototype.apply = function(compiler) {
           if(options.entryModules && chunk.entryModule){
             chunk.id = options.prepend+count+options.append;
             count++;
-          } else if(options.vendorModules && chunk.name.startsWith("vendors~")){
+          } else if(options.vendorModules && chunk.name && chunk.name.startsWith("vendors~")){
             chunk.id = options.prepend+count+options.append;
             count++;
           } else if(options.nonEntryModules){
